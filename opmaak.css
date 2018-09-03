@@ -1,12 +1,12 @@
 body {
     /*background-color: rgb(17, 158, 71);*/
     overflow-y: auto;
-    background-image: url("achtergrond.jpg");
+    margin: 0;
+    background-image: url("achtergrond.jpg"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     
@@ -14,8 +14,14 @@ body {
     
 
 }
+::-webkit-scrollbar {
+        display: none;
+}
 
-
+.back2 {
+        background-color: rgba(128, 128, 128, 0.863);
+        
+}
 
 #titel {
             text-align: center;
@@ -153,6 +159,7 @@ li a:hover {
         
         
         
+        
 }
 
 #list {
@@ -161,7 +168,26 @@ li a:hover {
     
 }
 
+#abouttable {
+    display: grid;
+    justify-content: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
 
+table, th, td {
+        padding-left: 5vh;
+        padding-right: 5vh;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+       
+}
+
+#links {
+    text-align: center;
+    font-size: 6vh;
+    color: white;
+}
 
 
 
