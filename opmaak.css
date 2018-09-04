@@ -23,7 +23,7 @@ body {
         
 }
 
-#titel {
+.titel {
             text-align: center;
             font-size: calc(4*1vh);
             color: rgb(255, 255, 255);
@@ -41,7 +41,7 @@ body {
 
 
 
-#land { 
+.land { 
         color: rgb(0, 0, 0);
         font-size: 3vh;
         text-align: center;  
@@ -49,7 +49,7 @@ body {
         margin-bottom: auto;
 }
 
-#htmlcss {
+.htmlcss {
             display: inline;
             justify-content: center;
             
@@ -58,9 +58,10 @@ body {
             
 }
 
-#plaatjes {
+.plaatjeswrap {
             display: flex;
             justify-content: center;
+            
             
             
 }
@@ -73,7 +74,7 @@ body {
 
 }
 
-#bottom {
+.bottom {
         background-color: rgba(255, 255, 255, 0.61);
         position: fixed;
         width: 100%;
@@ -89,7 +90,7 @@ body {
         height: 15vh;
 }
 
-#bar {
+.bar {
     list-style-type: none;
     margin-left: 0;
     margin-right: 0;
@@ -128,7 +129,7 @@ li a:hover {
     background-color: grey;
 }
 
-#header{
+.header{
             color: rgba(255, 255, 255, 0.692);
             font-size: calc(3.5*1vh); 
             text-align: center;
@@ -140,7 +141,7 @@ li a:hover {
             
 }
 
-#tekst{
+.tekst{
         font-size: 1.5vw;
         color: rgb(255, 255, 255);
         background-color: rgb(128, 128, 128);
@@ -162,13 +163,13 @@ li a:hover {
         
 }
 
-#list {
+.list {
     display: grid;
     justify-content: center;
     
 }
 
-#abouttable {
+.abouttable {
     display: grid;
     justify-content: center;
     padding-top: 1vw;
@@ -183,10 +184,98 @@ table, th, td {
        
 }
 
-#links {
+.links {
     text-align: center;
     font-size: 6vh;
     color: white;
+}
+
+.car {
+    margin-top: -20%;
+    background-color: rgba(128, 128, 128, 0);
+    display: flex;
+    
+    
+
+}
+
+.carbase {
+    background-color: rgba(255, 0, 0, 0);
+    animation-name: car;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+    
+}
+
+.carchasis {
+    display: flex;
+    width: 50%;
+    height: 25%;
+    animation-name: car;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 0%;
+}
+
+.wheelback {
+    background-color: rgba(0, 174, 255, 0);
+    margin-left: -43%;
+    width: 8%;
+    height: 8%;
+    margin-top: 10.5%;
+    animation-name: wheels;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.wheelfront {
+    background-color: rgba(0, 174, 255, 0);
+    margin-left: 22%;
+    width: 8%;
+    height: 8%;
+    margin-top: 10.5%;
+    animation-name: wheels;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.flames {
+    transform: rotate(270deg);
+    margin-left: -66%;
+    margin-top: -3%;
+    width: 20%;
+    height: 80%;
+}
+
+@keyframes car {
+    from {
+        margin-left: 0vw;
+    }
+    to {
+        margin-left: 120vw;
+    }
+}
+
+@keyframes wheels {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(1440deg);
+    }
+}
+
+.tablelinks {
+    display: flex;
+    justify-content: center;
 }
 
 
