@@ -15,22 +15,22 @@ body {
 
 }
 ::-webkit-scrollbar {
-        display: none;
+    display: none;
 }
 
 .back2 {
-        background-color: rgba(128, 128, 128, 0.863);
+    background-color: rgba(128, 128, 128, 0.863);
         
 }
 
 .titel {
-            text-align: center;
-            font-size: calc(4*1vh);
-            color: rgb(255, 255, 255);
-            background-color: rgba(128, 128, 128, 0.863);
-            border-radius: 15px;
-            margin-left: 5%;
-            margin-right: 5%;
+    text-align: center;
+    font-size: calc(4*1vh);
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.863);
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
             
             
             
@@ -42,16 +42,16 @@ body {
 
 
 .land { 
-        color: rgb(0, 0, 0);
-        font-size: 3vh;
-        text-align: center;  
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    text-align: center;  
         margin-top: 0;
-        margin-bottom: auto;
+    margin-bottom: auto;
 }
 
 .htmlcss {
-            display: inline;
-            justify-content: center;
+    display: inline;
+    justify-content: center;
             
             
             
@@ -59,35 +59,35 @@ body {
 }
 
 .plaatjeswrap {
-            display: flex;
-            justify-content: center;
+    display: flex;
+    justify-content: center;
             
             
             
 }
 
 .plaatjes {
-            margin-left: 3vw;
-            margin-right: 3vw;
-            margin-bottom: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 0;
             
 
 }
 
 .bottom {
-        background-color: rgba(255, 255, 255, 0.61);
-        position: fixed;
-        width: 100%;
-        display: block;
-        bottom: 0;
-        height: 20vh;
+    background-color: rgba(255, 255, 255, 0.61);
+    position: fixed;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    height: 20vh;
         
         
 }
 
 .logo {
         
-        height: 15vh;
+    height: 15vh;
 }
 
 .bar {
@@ -133,32 +133,32 @@ li a:hover {
 }
 
 .header{
-            color: rgba(255, 255, 255, 0.692);
-            font-size: calc(3.5*1vh); 
-            text-align: center;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            background-color: grey;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: calc(3.5*1vh); 
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: grey;
 
 
             
 }
 
 .tekst{
-        font-size: 1.5vw;
-        color: rgb(255, 255, 255);
-        background-color: rgb(128, 128, 128);
-        text-align: center;
-        border-radius: 15px;
-        display: block;
-        width: 90vw;
-        padding-top: 0.1vh;
-        padding-bottom: 0.1vh;
-        padding-left: 0.1vw;
-        padding-right: 0.1vw;
-        margin-bottom: 30vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    width: 90vw;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    margin-bottom: 30vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
         
         
         
@@ -180,10 +180,10 @@ li a:hover {
 }
 
 table, th, td {
-        padding-left: 5vh;
-        padding-right: 5vh;
-        padding-bottom: 1vh;
-        padding-top: 1vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
        
 }
 
