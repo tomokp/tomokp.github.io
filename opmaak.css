@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(17, 158, 71);*/
+    /*background-color: rgb(17, 158, 71);*/
     overflow-y: auto;
     margin: 0;
-    /*background-image: url("achtergrond.jpg");*/
+    background-image: url("achtergrond.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
