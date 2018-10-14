@@ -32,13 +32,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
             
-            
-            
-            
-        
-    
 }
-
 
 
 .land { 
@@ -112,7 +106,7 @@ body {
     
 }
 
-li {
+.lileft {
     float: left;
 }
 
@@ -159,10 +153,6 @@ li a:hover {
     margin-bottom: 30vh;
     margin-left: 5vw;
     margin-right: 5vw;
-        
-        
-        
-        
         
 }
 
@@ -372,4 +362,63 @@ table, th, td {
     width: 2vw;
     height: 5vh;
     margin-top: -1.5vh;
+}
+
+.alright {
+    /* text-align: right;
+    display: flex;
+    justify-content: right;  */
+    
+    float: right;
+    margin-top: -5%;
+    margin-right: 5%;
+    
+    
+    
+    
+}
+
+.alcenter {
+    text-align: center;
+    display: block;
+    
+}
+
+.tekstbase{
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 128, 128);
+    border-radius: 15px;
+    display: block;
+    width: 90vw;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    margin-bottom: 30vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+        
+}
+
+.fat {
+        font-weight: bold;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+.gotobutton {
+    background-color: rgb(128, 128, 128);
+    border-radius: 15px;
+    font-size: 150%;
+    padding: 1%;
+    margin-left: -0.5%;
+    color: rgb(0, 75, 0);
+
 }
