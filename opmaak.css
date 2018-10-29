@@ -397,6 +397,7 @@ img {
     float: left !important;
     margin-left: -42%;
     position: absolute;
+    opacity: 0.85;
 }
 
 .tooltip:hover .tooltiptext {
