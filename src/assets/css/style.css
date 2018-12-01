@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../fonts/Minecraft.ttf') format('truetype');
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Minecraft';
+    background-color: black;
+    background-image: url("../images/Tiles/backgrounddetailed2.png");
+    background-size: 25% 25%;
+    float: left; 
+} 
