@@ -4,8 +4,24 @@
         <title>Solicitatie</title>
         <link rel="stylesheet" href="opmaak.css">
         <meta charset="UTF-8">
+
+        <script>
+            function getAge(dateString) {
+            var today = new Date();
+            var birthDate = new Date(dateString);
+            var age = today.getFullYear() - birthDate.getFullYear();
+            var m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
+        function insertText () {
+        document.getElementById('age').innerHTML = getAge("2001/01/05");
+        }
+        </script>
     </head>
-    <body>
+    <body  onload="insertText();">
         <div class="header">
             <h2 class="header">Welkom op mijn eerste website! (2018)</h2>
         </div>
@@ -33,6 +49,7 @@
         <div class="titel">
             <h1>Over mij</h1>
         </div>
+        
         <div class="tekst">
             <table class="abouttable">
                 <tr>
@@ -45,7 +62,7 @@
                 </tr>
                 <tr>
                     <th>Leeftijd:</th>
-                    <td>20</td>
+                    <td id="age"></td>
                 </tr>
                 <tr>
                     <th>Woonplaats:</th>
